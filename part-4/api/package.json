@@ -1,0 +1,16 @@
+{
+	"name": "api",
+	"type": "module",
+	"scripts": {
+		"start": "node -r dotenv/config src/server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"fastify": "^3.11.0",
+		"fastify-cors": "^5.2.0",
+		"fastify-sensible": "^3.1.0"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0"
+	}
+}

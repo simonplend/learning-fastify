@@ -1,0 +1,11 @@
+{
+	"name": "proxy-server",
+	"type": "module",
+	"scripts": {
+		"start": "node -r dotenv/config src/server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0"
+	}
+}
