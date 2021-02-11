@@ -35,6 +35,6 @@ async function makeApiRequest(apiUrl) {
 	}
 }
 
-const apiUrl = "http://example-weather-api.com/cities/london";
+const apiUrl = "http://localhost:3000/cities/london";
 
 makeApiRequest(apiUrl);
